@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GorselBilesenler</string>
+    <string name="fillTheBlank">Please fill the blank..</string>
+    <string name="start">Başla</string>
+</resources>

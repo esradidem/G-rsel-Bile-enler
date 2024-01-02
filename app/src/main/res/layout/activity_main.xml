@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esra Didem"
+                android:textColor="@color/purple"
+                android:textSize="36sp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:layout_margin="12dp"
+                android:padding="20dp"/>
+            <TextView
+                android:id="@+id/textFirmName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keşif Plus"
+                android:textColor="@color/purple"
+                android:textSize="36sp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:layout_margin="12dp"
+                android:padding="20dp"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/start"
+            android:textColor="@color/black"
+            android:layout_margin="12dp"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonGizle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gizle"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/buttonGoster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Göster"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:hint="@string/fillTheBlank"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/emerald"
+            android:layout_marginTop="34dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <ImageView
+            android:id="@+id/imageFirm"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/kesif_plus" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:background="@color/emerald"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_margin="20dp"
+                android:text="Keşif Plus Giriş Ekranı"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="26sp"
+                android:textColor="@color/black"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
